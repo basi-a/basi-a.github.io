@@ -6,7 +6,7 @@ npm install
 ```
 # 新建文章
 ```bash
-hexo new "文章标题"
+hexo new post "文章标题"
 ```
 # 本地预览
 ```bash
