@@ -6,15 +6,16 @@ npm install
 ```
 # 新建文章
 ```bash
-hexo new post "文章标题"
+cd hexo
+./new-article.sh "文章标题"
 ```
 # 本地预览
 ```bash
-hexo clean
-hexo g
-hexo s
+cd hexo
+./fast-hexo-cgs.sh
 ```
 # 静态资源上传gh-pages分支
 ```bash
-hexo d
+cd hexo
+./fast-hexo-d.sh
 ```
