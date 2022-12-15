@@ -123,9 +123,10 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://raw.githubusercontent.com/basi-a/basi-a.github.io/img/upload/bachongshenzi.png
-    - https://raw.githubusercontent.com/basi-a/basi-a.github.io/img/upload/anbo.jpg
-    - https://raw.githubusercontent.com/basi-a/basi-a.github.io/img/upload/gosahtu.jpg
+    - https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/upload/tree.png
+    - https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/upload/bachongshenzi.png
+    - https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/upload/anbo.jpg
+    - https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/upload/gosahtu.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
