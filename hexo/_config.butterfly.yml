@@ -453,7 +453,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: ez8rbln56f
 
 # Advertisement
 # --------------------------------------
@@ -480,6 +480,8 @@ site_verification:
   #   content: xxxxxx
   # - name: baidu-site-verification
   #   content: xxxxxxx
+  - name: msvalidate.01 # bing
+    content: 5D18E92B6ACDC25FF9656B45D5350649
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
