@@ -87,31 +87,31 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: linear-gradient(135deg,#fce38a,#f38181)
+index_img: https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/compressed-img/8csz.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: linear-gradient(135deg,#fce38a,#f38181)
+default_top_img: https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/compressed-img/8csz.png
 
 # The banner image of archive page
-archive_img: linear-gradient(135deg,#fff6b7,#f6416c)
+archive_img: https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/compressed-img/8csz.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: linear-gradient(135deg,#fff6b7,#f6416c)
+tag_img: https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/compressed-img/8csz.png
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: linear-gradient(135deg,#42e695,#3bb2b8)
+tag_per_img: https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/compressed-img/8csz.png
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: linear-gradient(135deg,#fff6b7,#f6416c)
+category_img: https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/compressed-img/8csz.png
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: linear-gradient(135deg,#fce38a,#f38181)
+category_per_img: https://cdn.jsdelivr.net/gh/basi-a/basi-a.github.io@img/compressed-img/8csz.png
 
 cover:
   # display the cover or not (是否顯示文章封面)
