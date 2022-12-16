@@ -1,7 +1,7 @@
 - class_name: 友情链接
   class_desc: 那些人，那些事
   link_list:
-  - name: Jerry
+    - name: Jerry
       link: https://butterfly.js.org/
       avatar: https://butterfly.js.org/img/favicon.png
       descr: butterfly 主题的作者
