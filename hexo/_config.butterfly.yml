@@ -429,7 +429,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: <span>本网站由 </span><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="img/又拍云_logo5.png" align="absmiddle" width="66px" height="31px"/></a><span> 提供CDN加速/云存储服务</span>
   copyright: true # Copyright of theme and framework
 
 # Analysis
