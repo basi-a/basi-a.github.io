@@ -41,10 +41,10 @@ DownloadUrl=`curl -s 'https://im.qq.com/rainbow/linuxQQDownload/' -H 'user-agent
 install(){
 	echo "url: ${DownloadUrl}"
 	echo "install start"
-	wget ${DownloadUrl} -q --show-progress -o linuxqq
+	wget ${DownloadUrl} -c -q --show-progress -O linuxqq
 	chmod +x linuxqq
 	sudo cp linuxqq /usr/local/bin/linuxqq
-	rm linuxqq *AppImage
+	rm linuxqq
 	echo "install done"
 }
 main(){
