@@ -48,8 +48,8 @@ wget -c ${release_url} -q --show-progress
 安装deb包，安装后删除deb包
 **此脚本只对安装deb包起作用！！！其他的，自行修改**
 ```bash
-# script_name: fastfetch-install.sh
 #!/bin/bash
+# script_name: fastfetch-install.sh
 project_name="LinusDierheimer/fastfetch"
 echo "installing ${project_name} ......"
 source ./get-release-latest.sh
