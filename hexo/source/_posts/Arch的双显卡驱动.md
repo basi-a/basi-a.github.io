@@ -82,7 +82,32 @@ optimus-manager --print mode
 *********************
 # PRIME 方案
 ## 双卡驱动同 `optimus` 方案
-一般来说，装完驱动，直接`prime-run xxx`启动想用N卡的程序就行
+一般来说，装完驱动，不用配置啥，直接`prime-run xxx`启动想用N卡的程序就行；
+但也可以/etc/X11/xorg.conf.d/nvidia.conf里面显式的配置一下
+```text
+Section "ServerLayout"
+  Identifier "layout"
+  Screen 0 "iGPU"
+  Option "AllowNVIDIAGPUScreens"
+EndSection
+
+Section "Device"
+  Identifier "iGPU"
+  Driver "modesetting"
+  BusID "PCI:0:2:0"
+EndSection
+
+Section "Screen"
+  Identifier "iGPU"
+  Device "iGPU"
+EndSection
+
+Section "Device"
+  Identifier "dGPU"
+  Driver "nvidia"
+EndSection
+```
+下面的不配也行
 ## 添加N卡配置文件
 > 对于在 Intel Coffee Lake 或更高版本 CPU 以及某些 Ryzen CPU（如 5800H）平台上运行的图灵显卡，可以 在不使用的时候完全关闭 GPU。需要以下 udev 规则：
 ```bash
