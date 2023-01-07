@@ -25,7 +25,7 @@ highlight_shrink:
 aside:
 ---
 # Arch 的双显卡驱动 (xorg)
-**注意 ：本文两种方案不可共存！！**
+**注意 ：本文两种方案二选一 ！！**
 # optimus manager 方案
 ## I卡驱动
 
@@ -82,7 +82,9 @@ optimus-manager --print mode
 *********************
 # PRIME 方案
 ## 双卡驱动同 `optimus` 方案
+一般来说，装完驱动，直接`prime-run xxx`启动想用N卡的程序就行
 ## 添加N卡配置文件
+> 对于在 Intel Coffee Lake 或更高版本 CPU 以及某些 Ryzen CPU（如 5800H）平台上运行的图灵显卡，可以 在不使用的时候完全关闭 GPU。需要以下 udev 规则：
 ```bash
 sudo vim /etc/udev/rules.d/80-nvidia-pm.rules
 ```
@@ -106,42 +108,6 @@ options nvidia "NVreg_DynamicPowerManagement=0x02"
 sudo systemctl enable nvidia-persistenced.service
 ```
 > 来自archwiki的说法：
-> We also need to enable `nvidia-persistenced.service` to avoid the kernel tearing down the device state whenever the NVIDIA device resources are no longer in use. 
-## 创建xorg配置文件
-先查看双显卡的信息
-```bash
-lspci | grep VGA
-```
-创建xorg配置文件，默认会使用I卡
-```bash
-sudo vim /etc/X11/xorg.conf
-```
-```text
-Section "ServerLayout"
-        Identifier "layout"
-        Screen 0 "intel"
-        Inactive "nvidia"
-        Option "AllowNVIDIAGPUScreens"
-EndSection
+> 我们还需要启用nvidia-persistenced.service服务以避免内核在 NVIDIA 设备资源不再使用时清空设备状态。
 
-Section "Device"
-        Identifier "nvidia"
-        Driver "nvidia"
-EndSection
-
-Section "Screen"
-        Identifier "nvidia"
-        Device "nvidia"
-EndSection
-
-Section "Device"
-        Identifier "intel"
-        Driver "modesetting"
-        BusID "PCI:0:2:0" #添写 lspci | grep VGA 输出中I卡的信息
-EndSection
-
-Section "Screen"
-        Identifier "intel"
-        Device "intel"
-EndSection
-```
+其他的配置像`反向prime`我用不到，看[archwiki](https://wiki.archlinux.org/title/PRIME)吧
