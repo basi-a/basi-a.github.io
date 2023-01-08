@@ -160,4 +160,4 @@ dart run generate_dot_packages.dart > .packages
 # 执行生成的appimage
 生成的appimage在项目目录的`go/build/outputs/linux-appimage-release`，这个目录里面
 # 截图
-![截图](img/go-flutter-screenshot.png)
+![截图](https://cdn.basi-a.top/images/go-flutter-screenshot.png)
