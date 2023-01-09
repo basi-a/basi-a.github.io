@@ -126,36 +126,17 @@ hover build linux-appimage
 ```bash
 # 项目根目录生成.packages
 cd xxproject
-vim generate_dot_packages.dart
 vim generate_dot_packages.sh
 chmod +x generate_dot_packages.sh
 ./generate_dot_packages.sh
 # 生成完之后重新编译打包
 hover init-packaging linux-appimage
 ```
-generate_dot_packages.dart 的内容
-```dart
-import 'dart:convert';
-import 'dart:io';
 
-Future<void> main() async {
-  File file = File(".dart_tool/package_config.json");
-  dynamic pkgconfig = jsonDecode(await file.readAsString());
-  List<dynamic> pkgs = pkgconfig["packages"];
-  for (var elm in pkgs) {
-    if (elm["rootUri"] == "../") {
-      elm["rootUri"] = "./";
-    }
-  }
-  pkgconfig["packages"] = pkgs;
-  print(jsonEncode(pkgconfig));
-}
-
-```
 generate_dot_packages.sh 的内容
 ```bash
 #!/bin/bash
-dart run generate_dot_packages.dart > .packages
+cp .dart_tool/package_config.json .packages
 ```
 # 执行生成的appimage
 生成的appimage在项目目录的`go/build/outputs/linux-appimage-release`，这个目录里面
