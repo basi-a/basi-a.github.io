@@ -28,7 +28,7 @@ aside:
 ## 添加用户到docker组
 把操作`docker`的用户，添加到`docker`组，这样就不用每次都要切root或者输入sudo密码（啥都用root用户是一种愚蠢的行为。。。小声）
 ```bash
-sudo useradd -a -G docker username
+sudo usermod -a -G docker username
 ```
 # 新建文件夹，创建docker-compose.yml 文件
 ```bash
