@@ -3,9 +3,9 @@ title: linux 脚本安装 Apifox
 date: 2022-12-29 16:41:27
 updated: 2022-12-29 16:41:27
 tags: 
-    - [linux, arch, shell]
+    - [linux, shell]
 categories: 
-    - [linux, arch]
+    - [linux]
     - [shell]
 keywords: [Apifox, shell脚本安装]
 description: Archlinux 上使用 shell 脚本安装 Apifox
