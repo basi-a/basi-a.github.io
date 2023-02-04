@@ -4,7 +4,7 @@ date: 2022-01-15 12:55:00
 updated: 2022-12-15 17:51:16
 tags: "linux"
 categories:
-    - [linux,Archinux]
+    - [linux,Archlinux]
 keywords: "archlinux"
 description: ArchLinux的安装
 top_img:

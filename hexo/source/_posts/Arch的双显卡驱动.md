@@ -4,7 +4,7 @@ date: 2022-02-09 17:55:36
 updated: 2022-12-15 17:55:36
 tags: [arch,linux]
 categories: 
-    - [linux,Archinux]
+    - [linux,Archlinux]
 keywords: [archlinux,双显卡]
 description: Arch的双显卡驱动
 top_img:

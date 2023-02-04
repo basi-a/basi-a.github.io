@@ -4,7 +4,7 @@ date: 2022-02-27 23:06:50
 updated: 2022-12-15 17:59:50
 tags: linux
 categories: 
-    - [linux,Archinux]
+    - [linux,Archlinux]
 keywords: [arch,debtap,linux]
 description: Arch 用debtap 安装 deb包
 top_img:
