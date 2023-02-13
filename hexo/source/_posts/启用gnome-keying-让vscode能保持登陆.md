@@ -27,7 +27,7 @@ aside:
 在使用dwm之类的窗口管理器，之前也没装过gnome这类的桌面环境，在一个新鲜的环境下,vscode 会去使用gnome-keying来存储登陆信息，而又因为环境中没有gnome-keying，所以vscode每次打开都要重新登陆; 因此本文记录一下，我配置gnome-keying，并登陆自启的过程。
 # 安装gnome-keying
 ```bash
-sudo pacman -S gnome-keying libsecret
+sudo pacman -S gnome-keyring libsecret
 # libsecret授予其他应用程序访问密钥环的权限
 ```
 可选的GUI管理工具
