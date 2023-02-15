@@ -69,7 +69,7 @@ services:
       - ./redis/logs:/logs
     command: redis-server --requirepass 123456
     ports:
-      - 6379:6379:MarkdownPreview
+      - 6379:6379
 
 ```
 ## 在docker-compose.yml所在目录启动docker
