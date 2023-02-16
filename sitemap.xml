@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://basi-a.top/about/index.html</loc>
+    <loc>http://basi-a.top/2023/02/16/linux%E4%B8%8B%E8%BF%90%E8%A1%8Cflutter-doctor-Android-Studio-%E6%8A%A5%E9%94%99-Unable-to-find-bundled-Java-version-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
     
-    <lastmod>2023-02-13</lastmod>
+    <lastmod>2023-02-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://basi-a.top/categories/index.html</loc>
+    <loc>http://basi-a.top/about/index.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
@@ -30,6 +30,15 @@
   
   <url>
     <loc>http://basi-a.top/tags/index.html</loc>
+    
+    <lastmod>2023-02-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://basi-a.top/categories/index.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
@@ -175,7 +184,7 @@
 
   <url>
     <loc>http://basi-a.top/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -183,154 +192,161 @@
   
   <url>
     <loc>http://basi-a.top/tags/dwm/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/suckless/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/linux/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/arch/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/centos7/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/shell/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/debian/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/bash/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/docker/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/docker-compose/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/golang/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/flutter/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/hover/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/go-flutter/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/linux-shell/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://basi-a.top/tags/Android-studio/</loc>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/ns3/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/wsl2/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/go/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/linuxqq/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/AppImage/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/tags/swapfile/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -339,70 +355,70 @@
   
   <url>
     <loc>http://basi-a.top/categories/linux/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/linux/Archlinux/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/linux/centos/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/linux/debian/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/docker/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/golang/</loc>
-    <lastmod>2023-02-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://basi-a.top/categories/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/shell/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://basi-a.top/categories/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/linux/wsl2/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://basi-a.top/categories/docker/docker-compose/</loc>
-    <lastmod>2023-02-15</lastmod>
+    <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

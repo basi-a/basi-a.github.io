@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>linux下运行flutter doctor Android Studio 报错 Unable to find bundled Java version version&quot;解决方法</title>
+      <link href="/2023/02/16/linux%E4%B8%8B%E8%BF%90%E8%A1%8Cflutter-doctor-Android-Studio-%E6%8A%A5%E9%94%99-Unable-to-find-bundled-Java-version-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+      <url>/2023/02/16/linux%E4%B8%8B%E8%BF%90%E8%A1%8Cflutter-doctor-Android-Studio-%E6%8A%A5%E9%94%99-Unable-to-find-bundled-Java-version-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>为了测试自己写的后端代码，想着用<code>flutter</code>弄个前端界面打包成apk;<br>于是在我安装了<code>Android Studio</code>运行<code>flutter doctor -v</code>后，报了三个错误;</p><p>前两个都是<code>Android toolchain</code>的错误，到<code>android studio</code>里面,<br>找到<code>File &gt;&gt;Settings &gt;&gt; System Settings &gt;&gt; Android SDK &gt;&gt; SDK Tools &gt;&gt; Android SDK Command-line Tools</code><br>安装，这就解决了第一个错误，之后运行<code>flutter doctor --android-licenses</code>，接受全部询问。<br>到这前两个都解决了。</p><p>而第三个在<code>Android Studio</code>这里报的<code>Unable to find bundled Java version.</code>错误, 废了我好长时间，下面是我咋解决的记录。</p><h1 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h1><p>一开始，我查资料不是<code>windows</code>的就是<code>macos</code>的，就是没找到<code>linux</code>的;<br>但看了一会发现，都说是最新的<code>Android Studio</code>没有了<code>jre</code>导致的，然后通过复制<code>jre</code>解决的;</p><p>于是我就找到了我的<code>jdk</code>的根目录<code>/usr/lib/jvm/java-19-openjdk</code> 用<code>./bin/jlink --module-path jmods --add-modules java.desktop --output jre</code> 生成了<code>jre</code><br>然后创建软连接到<code>Android Studio</code>的根目录<code>/opt/android-studio/</code>,<br>而我发现这里的<code>/opt/android-studio/jbr/</code>内容和<code>jre</code>是一样的；</p><p>我觉得应该是最新的<code>Android Studio</code>的<code>jre</code>不是没有而是改了名字，我就把刚弄好的<code>jre</code>软连接删掉了，<br>在这重新创建软连接，再次运行<code>flutter doctor -v</code>没有了错误 </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">/opt/android-studio/ $ sudo <span class="built_in">ln</span> -s jbr jre</span><br><span class="line">/opt/android-studio/ $ <span class="built_in">env</span> CHROME_EXECUTABLE=edge \</span><br><span class="line">flutter doctor -v</span><br></pre></td></tr></table></figure><p>至此问题解决了, 俺很欣慰😃</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> flutter </tag>
+            
+            <tag> Android studio </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>docker-compose mariadb+redis 简单部署</title>
       <link href="/2023/01/27/docker-compose-mariadb-redis-%E7%AE%80%E5%8D%95%E9%83%A8%E7%BD%B2/"/>
       <url>/2023/01/27/docker-compose-mariadb-redis-%E7%AE%80%E5%8D%95%E9%83%A8%E7%BD%B2/</url>
