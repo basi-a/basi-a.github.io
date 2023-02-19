@@ -7,8 +7,8 @@ tags:
   - centos
   - archlinux
 categories: 
-  - [linux,centos]
-  - [linux,archlinux]
+  - [Linux,centos]
+  - [Linux,ArchLinux]
 keywords:  ansible执行本地脚本，编译安装redis到远程服务器
 description: ansible执行本地脚本，编译安装redis到远程服务器
 top_img:

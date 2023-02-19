@@ -2,9 +2,9 @@
 title: centos7 安装 zabbix
 date: 2022-12-16 17:56:43
 updated: 2022-12-16 17:56:43
-tags: [centos7,linux,shell]
+tags: [centos7,Linux,shell]
 categories:
-    - [linux,centos]
+    - [Linux,centos]
     - [shell]
 keywords: [centos7,zabbix]
 description: centos7 安装 zabbix

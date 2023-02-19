@@ -4,7 +4,7 @@ date: 2022-08-06 15:44:05
 updated: 2022-12-15 18:14:05
 tags: [go,bash]
 categories: 
-    - [linux]
+    - [Linux]
     - [shell]
 keywords: 交叉编译
 description: 一个交叉编译GO的小脚本

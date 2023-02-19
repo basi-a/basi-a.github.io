@@ -6,9 +6,9 @@ date: 2023-02-16 12:02:49
 updated: 2023-02-16 12:02:49
 tags: 
   - flutter
-  - linux
+  - Linux
   - Android studio
-categories: linux
+categories: Linux
 keywords: "linux下运行flutter doctor Android Studio 报错 Unable to find bundled Java version"
 description: "linux下运行flutter doctor Android Studio 报错 Unable to find bundled Java version"
 top_img:

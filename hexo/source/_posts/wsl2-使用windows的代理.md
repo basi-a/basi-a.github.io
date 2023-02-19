@@ -4,7 +4,7 @@ date: 2022-12-15 18:15:51
 updated: 2022-12-15 18:15:51
 tags: [wsl2,代理,bash]
 categories: 
-    - [linux,wsl2]
+    - [Linux,wsl2]
     - [shell]
 keywords: 代理
 description: wsl2 使用 windows 局域网共享的代理

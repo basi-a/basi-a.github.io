@@ -4,7 +4,7 @@ date: 2022-12-31 09:40:21
 updated: 2022-12-31 09:40:21
 tags: [linuxqq,AppImage]
 categories: 
-    - [linux]
+    - [Linux]
     - [shell]
 keywords: [新版linuxqq,脚本安装,AppImage包]
 description: 新版linuxqq 脚本安装AppImage包

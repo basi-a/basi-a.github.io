@@ -2,9 +2,9 @@
 title: debian 安装最新 fastfetch
 date: 2022-12-13 18:21:49
 updated: 2022-12-15 18:17:49
-tags: [debian,linux,bash]
+tags: [debian,Linux,bash]
 categories: 
-    - [linux,debian]
+    - [Linux,debian]
     - [shell]
 keywords: [debian,安装最新release]
 description: debian 中脚本安装最新 fastfetch 的release, 还可以安装点其他的deb

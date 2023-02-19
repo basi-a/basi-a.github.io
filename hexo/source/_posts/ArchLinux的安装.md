@@ -2,10 +2,10 @@
 title: ArchLinux的安装
 date: 2022-01-15 12:55:00
 updated: 2022-12-15 17:51:16
-tags: "linux"
+tags: "Linux"
 categories:
-    - [linux,Archlinux]
-keywords: "archlinux"
+    - [Linux,ArchLinux]
+keywords: "ArchLinux"
 description: ArchLinux的安装
 top_img:
 comments:

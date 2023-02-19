@@ -2,8 +2,8 @@
 title: 启用gnome-keying 让vscode能保持登陆
 date: 2023-01-08 09:56:14
 updated: 2023-01-08 09:56:14
-tags: [arch,linux]
-categories: [linux,Archlinux]
+tags: [ArchLinux,Linux]
+categories: [Linux,ArchLinux]
 keywords: [启用gnome-keying 让vscode能保持登陆]
 description: 启用gnome-keying 让vscode能保持登陆
 top_img:

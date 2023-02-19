@@ -4,7 +4,7 @@ date: 2022-07-03 17:41:10
 updated: 2022-12-15 18:10:10
 tags: [dwm,suckless]
 categories: 
-    - [linux]
+    - [Linux]
 keywords: [arandr,xrandr]
 description: Arandr --不懂xrandr 参数的救星
 top_img:
