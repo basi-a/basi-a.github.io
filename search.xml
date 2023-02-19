@@ -13,11 +13,11 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
+          
+          <category> ArchLinux </category>
           
           <category> centos </category>
-          
-          <category> archlinux </category>
           
       </categories>
       
@@ -46,14 +46,14 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> Linux </tag>
             
             <tag> flutter </tag>
             
@@ -135,18 +135,18 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
-          <category> Archlinux </category>
+          <category> ArchLinux </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> Linux </tag>
             
-            <tag> arch </tag>
+            <tag> ArchLinux </tag>
             
         </tags>
       
@@ -164,7 +164,7 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
           <category> shell </category>
           
@@ -193,7 +193,7 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
           <category> shell </category>
           
@@ -202,7 +202,7 @@
       
         <tags>
             
-            <tag> linux,shell </tag>
+            <tag> Linux,shell </tag>
             
         </tags>
       
@@ -220,7 +220,7 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
           <category> centos </category>
           
@@ -231,7 +231,7 @@
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> Linux </tag>
             
             <tag> centos7 </tag>
             
@@ -253,7 +253,7 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
           <category> shell </category>
           
@@ -286,7 +286,7 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
           <category> debian </category>
           
@@ -297,7 +297,7 @@
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> Linux </tag>
             
             <tag> debian </tag>
             
@@ -319,7 +319,7 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
           <category> shell </category>
           
@@ -348,7 +348,7 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
       </categories>
       
@@ -400,14 +400,14 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> Linux </tag>
             
             <tag> swapfile </tag>
             
@@ -427,16 +427,16 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
-          <category> Archlinux </category>
+          <category> ArchLinux </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> Linux </tag>
             
         </tags>
       
@@ -454,18 +454,16 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
-          <category> Archlinux </category>
+          <category> ArchLinux </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> linux </tag>
-            
-            <tag> arch </tag>
+            <tag> ArchLinux </tag>
             
         </tags>
       
@@ -483,16 +481,16 @@
       
       <categories>
           
-          <category> linux </category>
+          <category> Linux </category>
           
-          <category> Archlinux </category>
+          <category> ArchLinux </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> Linux </tag>
             
         </tags>
       
