@@ -39,7 +39,7 @@ cd test && vim docker-compose.yml
 ```yml
 # Use root/123456 as user/password for mariadb
 # adminer is a simple tool to control mariadb
-# Use 123456 as redis requirepass
+# Use 123456 as redis password
 version: '3.1'
 
 services:
@@ -50,7 +50,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ./mariadb/data:/var/lib/mysql
+      - ./mariadb/data:/var/lib/mysql:rw
     environment:
       MARIADB_ROOT_PASSWORD: "123456"
   adminer:
@@ -64,13 +64,31 @@ services:
     container_name: redis
     restart: always
     volumes:
-      - ./redis/data:/data
-      - ./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf
-      - ./redis/logs:/logs
-    command: redis-server --requirepass 123456
+      - ./redis/data:/data:rw
+      - ./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf:rw
+    command: redis-server /usr/local/etc/redis/redis.conf
     ports:
       - 6379:6379
-
+```
+## 创建 redis.conf
+```bash
+mkdir -p redis/conf
+vim redis/conf/redis.conf
+```
+配置文件内容
+```text
+protected-mode no
+port 6379
+timeout 0
+save 900 1
+save 300 10
+save 60 10000
+rdbcompression yes
+dbfilename dump.rdb
+dir /data
+appendonly yes
+appendfsync everysec
+requirepass 123456
 ```
 ## 在docker-compose.yml所在目录启动docker
 ```bash
