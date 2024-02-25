@@ -299,12 +299,12 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: 52b83fe959d4a9071446
-  client_secret: 9d03ac4384543330472287eb2aafd3ef8848d9b1
-  repo: basi-a.github.io
-  owner: basi-a
-  admin: basi-a
-  option: basi-a
+  client_id: 
+  client_secret: 
+  repo: 
+  owner:
+  admin: 
+  option: 
 
 # valine
 # https://valine.js.org
