@@ -1,0 +1,39 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: jia-a
+      link: https://jia-a.top
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3388458239&spec=100
+      descr: ヾ(≧▽≦*)o 喜欢猫猫 可爱
+      
+    - name: 小成同学_
+      link: https://blog.csdn.net/weixin_53407527
+      avatar: https://profile-avatar.csdnimg.cn/66aa1dbc78db471fa21007191b63ca96_weixin_53407527.jpg!1
+      descr: This is your lucky day.
+
+    - name: Bow.贾斯汀
+      link: https://blog.csdn.net/qq_61323055
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2192464651&spec=100
+      descr: 不要总说十年前，我们还有今天
+
+    - name: Jerry
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/favicon.png
+      descr: butterfly 主题的作者
+
+- class_name: 网站
+  class_desc: 推荐的网站
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简洁且高效的博客框架
+    - name: Gin Web Framework
+      link: https://gin-gonic.com/zh-cn/
+      avatar: https://gin-gonic.com/favicons/favicon.ico
+      descr: Go语言最快的全功能Web框架。晶莹剔透。
+    - name: GORM
+      link: https://gorm.io/zh_CN/
+      avatar: https://gin-gonic.com/favicons/favicon.ico
+      descr: The fantastic ORM library for Golang
+    
