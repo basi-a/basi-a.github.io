@@ -100,12 +100,16 @@ ignore:
 theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+#deploy:
+#  type: git
+#  repo: git@github.com:basi-a/basi-a.github.io.git
+#  # example, https://github.com/hexojs/hexojs.github.io
+#  branch: gh-pages
 deploy:
   type: git
-  repo: git@github.com:basi-a/basi-a.github.io.git
+  repo: git@dev.basi-a.top:/home/gitrepo/hexo.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
-
+  branch: master
 feed:
   enable: true
   type: atom
