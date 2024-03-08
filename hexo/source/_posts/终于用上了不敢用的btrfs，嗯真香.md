@@ -56,7 +56,7 @@ mount /dev/nvme0n1p2 /mnt
 btrfs su cr /mnt/@
 btrfs su cr /mnt/@log
 btrfs su cr /mnt/@cache
-btrfs su cr /mnt/@snapshots
+btrfs su cr /mnt/@snapshots # 这个安装完snapper之后再挂载, 暂时创建完不用挂载
 umount /mnt
 mount /dev/sda1 /mnt
 btrfs su cr /mnt/@home
@@ -104,7 +104,15 @@ sudo systemctl enable grub-btrfsd --now
 ```bash
 sudo snapper -c root create-config /
 ```
-
+删除`/.snapshots`子卷, 据说是这种一点也不`Archlinux`, 当然我也不知道为啥这么说，我是因为跟其他子卷的格式不统一，强迫症受不了
+```bash
+sudo btrfs su del /.snapshots
+sudo mkdir /.snapshots
+```
+修改/etc/fstab, 将@snapshots子卷挂载到/.snapshots上面，照着同设备的格式抄, 之后挂载
+```bash
+sudo mount -a
+```
 编辑配置文件`/etc/snapper/configs/root`, 修改一下，可以进行快照的用户和组
 ```text
 ALLOW_USERS=""
@@ -133,6 +141,40 @@ sudo btrfs filesystem mkswapfile --size 32g --uuid clear /swap/swapfile
 swapon /swap/swapfile
 ```
 写入`/swap/swapfile none swap defaults 0 0`到`/etc/fstab`
-
+## 休眠配置
+### 获取参数
+获取`swapfile`所在块设备的`UUID`
+```bash
+sudo blkid | grep /dev/nvme0n1p2 | awk '{print $3}'
+```
+获取`resume_offset`, btrfs文件系统和其他文件系统上面的swapfile的获取方式不一样
+```bash
+sudo btrfs inspect-internal map-swapfile -r /swap/swapfile
+```
+### 修改内核配置
+修改`CMDLINE_LINUX`, 里面加上resume和resume_offset, 比如Grub的要改`/etc/default/grub`
+```text
+...
+CMDLINE_LINUX="... resume=UUID=${上面获得的UUID} resume_offset=${上面获得的resume_offset}"
+...
+```
+如果用的是mkinitcpio的话，需要在/etc/mkinitcpio.conf, 找到HOOKS, 在filesystems参数后面加上resume；当然如果用的是`dracut`，那就啥都不用改
+```text
+...
+HOOKS=(... filesystems resume ...)
+...
+```
+更新`initramfs`
+```bash
+sudo mkinitcpio -P
+# 或者用dracut的, 不过得看好原本叫啥名字
+sudo dracut --force --hostonly --no-hostonly-cmdline /boot/initramfs-linux.img $(uname -r)
+sudo dracut --force --no-hostonly /boot/initramfs-linux-fallback.img $(uname -r)
+## 当然这个是麻烦一点的，直接重装内核就好了嘛
+sudo pacman -S linux
+```
+---
+---
+---
 我弄完最后的状态
 ![两个磁盘的子卷](https://cdn.basi-a.top/images/2023-12-25-121830_1920x1080_scrot.webp)
