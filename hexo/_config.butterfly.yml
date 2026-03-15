@@ -681,7 +681,7 @@ aside:
       link: https://github.com/basi-a
   card_announcement:
     enable: true
-    content: <p>距离繁星更近的每一步，都是「开拓」的收获，也是这段旅程的意义。</p><p align="right">----姬子</p>
+    content: 啊？啥？
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -851,7 +851,7 @@ lazyload:
   enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
