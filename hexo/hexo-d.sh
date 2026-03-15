@@ -1,2 +1,3 @@
 #!/bin/bash
-hexo d
+#hexo d
+sudo rsync -r public /var/www/hexo-public
